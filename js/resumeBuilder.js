@@ -1,3 +1,5 @@
-/*
-This is empty on purpose! Your code to build the resume will go here.
- */
+var firstName = "Xavier";
+var age = 25;
+var awsomeThoughts = "I am " + firstName + " and I am AWESOME";
+
+console.log(awsomeThoughts);
