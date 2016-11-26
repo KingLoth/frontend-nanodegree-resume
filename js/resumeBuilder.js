@@ -1,6 +1,6 @@
 var firstName = "Xavier";
+var lastName = "Locoge"
 var age = 25;
-var awsomeThoughts = "I am " + firstName + " and I am AWESOME";
-var funThoughts = awsomeThoughts.replace("AWESOME", "FUN");
+var formatedName = HTMLheaderName.replace("%data%", firstName + " " + lastName);
 
-$("#main").append(funThoughts);
+$("#header").append(formatedName);
